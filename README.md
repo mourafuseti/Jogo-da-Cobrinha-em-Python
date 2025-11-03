@@ -148,5 +148,9 @@ Proibida a comercialização ou redistribuição sem permissão.
 
 > **Divirta-se e bata o recorde!**
 ```
-
-
+> **Criar o exe!**
+```
+powershell
+...
+cd "C:\Users\ESTACIO\Desktop\jogo"
+pyinstaller --onefile --windowed --add-data "comer.wav;." --add-data "gameover.wav;." --add-data "musica.wav;." cobrinha.py
